@@ -1,0 +1,114 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    /* box-sizing: border-box; */
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --xanh-: rgb(18, 62, 158);
+}
+
+.k {
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    width: 20%;
+    background-color: var(--xanh-);
+    padding: 10px;
+    height: 100vh;
+}
+
+.nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav ul li {
+    /* margin: 10px; */
+    padding: 3px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    /* background-color: aliceblue; */
+    transition: all 0.3s ease;
+}
+.nav ul li:hover{
+    background-color: rgb(148, 86, 86);
+}
+.nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+div.main{
+    width: 75%;
+    padding-top: 25px;
+}
+.form{
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.form form{
+    width: 100%;
+}
+.ds{
+    width: 100%;
+}
+.ds table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+.btn{
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-xanh{
+    background-color: green;
+}
+.btn-do{
+    background-color: red;
+}
+.btn-bien{
+    background-color: rgb(20, 81, 172);
+}
+.form-mon{
+    width:100%;
+
+}
+.form-mon form{
+    width: 100%;
+    /* display:flex; */
+    /* justify-content:space-between; */
+}
+.form-mon form input{
+    height: 30px;
+    margin-bottom: 10px;
+}
+.form-mon form select{
+    margin-bottom: 10px;
+}
+.form-mon form label{
+    font-weight:500;
+}
+.ds{
+    width: 100%;
+    margin-top: 10px;
+}
